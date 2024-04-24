@@ -77,6 +77,7 @@ def chatbot():
         else:
           print("Sorry, I don't understand that choice.")
         print("Do you have any other questions or topics you'd like to talk about?")
+        print("yes or No")
         answer = input().lower()
         if 'yes' in answer:
             continue
